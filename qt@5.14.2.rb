@@ -8,12 +8,12 @@ class QtAT5142 < Formula
 
   head "https://code.qt.io/qt/qt5.git", :branch => "dev", :shallow => false
 
-  bottle do
-    cellar :any
-    sha256 "235bbe918f05509380ba870b24a84e14cbac044b56ade7b824408ad11963de41" => :catalina
-    sha256 "356f2d8914429724dc0b98ab194b3c32417870008650342a21ddbb26c130743d" => :mojave
-    sha256 "78f577a236c2eee17e371ae5efe951b80e01f6e2a491b6922442b71e0a2cf3e6" => :high_sierra
-  end
+ # bottle do
+ #   cellar :any
+ #   sha256 "235bbe918f05509380ba870b24a84e14cbac044b56ade7b824408ad11963de41" => :catalina
+ #   sha256 "356f2d8914429724dc0b98ab194b3c32417870008650342a21ddbb26c130743d" => :mojave
+ #   sha256 "78f577a236c2eee17e371ae5efe951b80e01f6e2a491b6922442b71e0a2cf3e6" => :high_sierra
+ # end
 
   keg_only "Qt 5 has CMake issues when linked"
 
