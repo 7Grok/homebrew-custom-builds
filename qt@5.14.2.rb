@@ -38,7 +38,7 @@ class QtAT5142 < Formula
       -no-rpath
       -pkg-config
       -dbus-runtime
-      -proprietary-codecs
+      -skip proprietary-codecs
       -skip qtwebchannel
       -skip qtwebengine
       -skip qtwebsockets 
